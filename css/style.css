@@ -80,6 +80,7 @@ h3 {
 
 .section__title--intro strong {
   display: block;
+  font-weight: 900;
 }
 .section__subtitle {
   margin: 0;
