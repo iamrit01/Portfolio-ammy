@@ -14,6 +14,7 @@
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #16e0bd;
+  --clr-grays: #d3d3d3;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -96,44 +97,74 @@ h3 {
 /* skill */
 .my-skills {
   width: 100%;
-  height: 400px;
-  background-color: gainsboro;
+  height: auto;
+  background-color: #efefef;
 }
-
-.my-skills div {
-  width: 100px;
-  height: 50px;
-  border-radius: 30%;
-  background-color: green;
+.outer-skill__div {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--clr-grays);
+  margin: 28px;
+  box-shadow: 0px 45px 50px 2px;
+}
+.outer-skill__div div {
+  width: 50%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  padding: 6px 0 8px 7px;
+  color: white;
+  background-color: #2857a4;
+}
+.my-skills__skills {
+  padding: 50px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0 25px 0;
 }
 
 .section-title-skills {
   display: flex;
   justify-content: center;
 }
+
 #skill1 {
-  flex-shrink: 0;
+  width: 70%;
   flex-shrink: 0;
 }
 #skill2 {
   flex-shrink: 0;
-  flex-shrink: 0;
+  width: 75%;
+  background: #ec4d1c;
 }
 #skill3 {
   flex-shrink: 0;
-  flex-shrink: 0;
+  background-color: #93738c;
 }
 #skill4 {
   flex-shrink: 0;
-  flex-shrink: 0;
+  width: 65%;
+  background-color: #0b8176;
 }
 #skill5 {
   flex-shrink: 0;
-  flex-shrink: 0;
+  width: 65%;
 }
 #skill6 {
   flex-shrink: 0;
+  width: 50%;
+  background-color: #ec4d1c;
+}
+#skill7 {
+  flex-grow: 0;
   flex-shrink: 0;
+  width: 90%;
+  background-color: #93738c;
+}
+#skill8 {
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 75%;
+  background-color: #0b8176;
 }
