@@ -52,3 +52,36 @@
   height: 201px;
   border-radius: 50%;
 }
+.short-description {
+  height: 20rem;
+}
+.my-skills {
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: ghostwhite;
+}
+.outer-skill_container {
+  width: 180px;
+  height: 30px;
+}
+.progress {
+  height: 30px !important;
+}
+.skills-first_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-second_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-skills_skills {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
