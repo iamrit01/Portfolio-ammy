@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.heading {
+  color: #358ccb;
+}
 .header-container {
   width: 100%;
   height: 20rem;
@@ -43,7 +46,6 @@
   bottom: 99px;
   position: relative;
   border-radius: 50%;
-
   box-shadow: 1px 1px 5px 0px;
 }
 .avtar {
@@ -56,7 +58,7 @@
   height: 20rem;
 }
 .my-skills {
-  height: 22rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -84,4 +86,50 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.my-experience_left-side {
+  width: 49%;
+  padding-right: 30px;
+  display: flex;
+  justify-content: end;
+}
+.vertical-line {
+  width: 1px;
+  border-left: 5px dotted #358ccb;
+}
+.my-experience_right-side {
+  width: 49%;
+}
+.my-experience_experiences {
+  height: 25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.my-education {
+  height: 100vh;
+}
+.about-job {
+  display: flex;
+  justify-content: space-between;
+}
+.first-experience {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.cust_paragraph {
+  text-align: justify;
+}
+.rotate_image {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.airplain_icon {
+  position: relative;
+  right: 35px;
+  top: -10px;
 }
