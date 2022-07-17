@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
     <div class="header-container">
@@ -90,24 +91,24 @@
     </div>
     <div class="container mb-2">
       <section class="short-description">
-        <p>
+        <p class="cust_paragraph">
           As a teenager at school, I was the kid other students approached about
           issues with their phones or laptop. I was the go-to guy for fixing
           resolving any technical problems.
         </p>
-        <p>
+        <p class="cust_paragraph">
           I’ve always been a great problem solver, an independent introvert, and
           a technophile obsessed with the latest devices. Today, I’m working
           from home as a full time <strong>Software Engineer</strong>
           for PlanetSpark.
         </p>
-        <p>
+        <p class="cust_paragraph">
           I started learning to code when I was in my freshman year. Since then,
           I’ve worked on countless projects. Today I’m working as a full-stack
           developer with the amazing team at PlanetSpark and am getting into
           mobile application development on my own time.
         </p>
-        <p>
+        <p class="cust_paragraph">
           I’m familiar with a variety of programming languages and frameworks,
           including <mark>JavaScript</mark>, <mark>HTML</mark>,
           <mark>CSS</mark>, <mark>Java</mark>, <mark>Ruby</mark>,
@@ -115,7 +116,7 @@
           <mark>Ruby on Rails</mark>. But I’m always adding new skills to my
           repertoire.
         </p>
-        <p>
+        <p class="cust_paragraph">
           I’m also eager to meet other software engineers in the area, so feel
           free to connect!
         </p>
@@ -123,7 +124,7 @@
     </div>
     <section class="my-skills">
       <div class="container pt-4">
-        <h1 class="text-center text-primary">
+        <h1 class="text-center heading">
           <img src="img/skills_icon.png" alt="skill_icon" /> My Skills
         </h1>
         <div class="my-skills_skills">
@@ -246,5 +247,50 @@
         </div>
       </div>
     </section>
+    <section class="my-experience">
+      <h1 class="text-center pt-4 heading mb-5">
+        <img src="img/experience_icon.png" alt="experience icon" />
+        WORK EXPERIENCE
+      </h1>
+      <div class="my-experience_experiences container">
+        <div class="my-experience_left-side">
+          <div class="first-experience">
+            <div class="about-job">
+              <div>
+                <object
+                  data="img/planetspark_icon.svg"
+                  width="100"
+                  height="100"
+                ></object>
+              </div>
+              <div class="text-end">
+                <h3 class="heading">Software Engineer</h3>
+                <h4 style="color: #fcaf26">PlanetSpark</h4>
+                <p class="text-black-50">Oct 2021 - Present</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-black-50 cust_paragraph">
+                Et commodo excepteur aliqua reprehenderit incididunt cillum
+                irure quis veniam ipsum velit. Incididunt labore sit nostrud
+                magna culpa sint ad eu proident ad fugiat sunt cupidatat
+                consectetur. Magna laborum consequat voluptate sunt fugiat sunt
+                exercitation et sunt nulla dolore.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="vertical-line">
+          <img
+            class="rotate_image airplain_icon"
+            src="img/sairplane_icon.png"
+            alt="airplane icon"
+          />
+        </div>
+        <div class="my-experience_right-side"></div>
+      </div>
+    </section>
+    <section class="my-education"></section>
   </body>
+  <script src="javascript/index.js"></script>
 </html>
