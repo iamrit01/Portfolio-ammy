@@ -111,9 +111,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.my-education {
-  height: 100vh;
-}
 .about-job {
   display: flex;
   justify-content: space-between;
